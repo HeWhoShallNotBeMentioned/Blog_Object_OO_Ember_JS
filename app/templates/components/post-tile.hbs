@@ -1,0 +1,9 @@
+{{yield}}
+
+<li>{{post.title}} by {{post.author}}
+  {{#if isBlogPostShowing }}
+    <p {{action 'blogPostHide'}}>Posted by: {{post.user}}<br>{{post.body}} </p> 
+  {{else}}
+    <button {{action 'blogPostShow'}}>Show Post</button>
+  {{/if}}
+</li>

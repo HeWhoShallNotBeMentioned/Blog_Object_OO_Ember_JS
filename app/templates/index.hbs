@@ -3,3 +3,11 @@
 <p>
   We provide information, tips and tricks on coding in various object oriented languages.
 </p>
+
+<ul>
+  {{#each model as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
+</ul>
+
+{{new-post save2="save3"}}
