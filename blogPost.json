@@ -1,0 +1,24 @@
+{
+    "posts": [
+        {
+            "title": "object-oriented programming (OOP) definition",
+            "author": "Margaret Rouse",
+            "body": "http://searchsoa.techtarget.com/definition/object-oriented-programming"
+        },
+        {
+            "title": "object-oriented programming",
+            "author": "Vangie Beal",
+            "body": "A type of programming in which programmers define not only the data type of a data structure, but also the types of operations (functions) that can be applied to the data structure. In this way, the data structure becomes an object that includes both data and functions. In addition, programmers can create relationships between one object and another. For example, objects can inherit characteristics from other objects. One of the principal advantages of object-oriented programming techniques over procedural programming techniques is that they enable programmers to create modules that do not need to be changed when a new type of object is added. A programmer can simply create a new object that inherits many of its features from existing objects. This makes object-oriented programs easier to modify."
+        },
+        {
+            "title": "Object-oriented programming",
+            "author": "WikiPedia",
+            "body": "Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which are data structures that contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A distinguishing feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of 'this' or 'self'). In OO programming, computer programs are designed by making them out of objects that interact with one another.[1][2] There is significant diversity in object-oriented programming, but most popular languages are class-based, meaning that objects are instances of classes, which typically also determines their type. Many of the most widely used programming languages are multi-paradigm programming languages that support object-oriented programming to a greater or lesser degree, typically in combination with imperative, procedural programming. Significant object-oriented languages include Python, C++, Objective-C, Smalltalk, Delphi, Java, Swift, C#, Perl, Ruby and PHP."
+        },
+        {
+            "title": "Comparison of programming languages (object-oriented programming)",
+            "author": "Wikipedia",
+            "body": "This Comparison of programming languages compares how object-oriented programming languages such as C++, Python, Perl, Java, Object Pascal and others manipulate data structures."
+        }
+    ]
+}

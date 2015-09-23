@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'object-or',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://objectorientedblog.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
