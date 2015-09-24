@@ -1,13 +1,18 @@
-<h1>Welcome to the Object Oriented Programming Blog!</h1>
+<div id="index-header">
+  <h1>Welcome to the Object Oriented Programming Blog!</h1>
 
-<p>
-  We provide information, tips and tricks on coding in various object oriented languages.
-</p>
+  <p>
+    We provide information, tips and tricks on coding in various object oriented languages.
+  </p>
+</div>
 
+<div id="new-post-button">
+  {{new-post save2="save3"}}
+</div>
+
+<br>
 <ul>
   {{#each model as |post|}}
     {{post-tile post=post update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
-
-{{new-post save2="save3"}}
