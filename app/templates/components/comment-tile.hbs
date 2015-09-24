@@ -1,0 +1,9 @@
+<li>{{comment.title}} by {{comment.username}}
+  {{#if isBlogPostShowing }}
+  <p {{action 'blogPostHide'}}>{{comment.body}}</p>
+  {{else}}
+  <button {{action 'commentShow'}}>Show Comment</button>
+  {{/if}}
+  {{update-comment comment=comment update="update"}}
+  <button {{action 'delete' comment}}>Delete Comment</button>
+</li>

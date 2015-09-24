@@ -15,8 +15,17 @@
 <ul>
   {{#each model.posts as |post|}}
     {{post-tile post=post update="update" destroyPost="destroyPost"}}
+    {{new-comment saveComment="saveComment" post=post}}
+    <h5>Comments:</h5>
+    {{#each post.comments as |comment|}}
+    <li>{{comment.title}}{{comment.username}}{{comment.body}}</li>
+    {{/each}}
   {{/each}}
+
 </ul>
+
+
+
 
 
 <br>
