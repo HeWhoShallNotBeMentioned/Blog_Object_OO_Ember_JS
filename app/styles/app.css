@@ -16,9 +16,13 @@
 }
 
 #about-page {
-  padding-left: 30px;
+  text-align: center;
 }
 
 #contact-page {
-  padding-left: 30px;
+  text-align: center;
+}
+
+#posts-header {
+  padding-left:5%;
 }

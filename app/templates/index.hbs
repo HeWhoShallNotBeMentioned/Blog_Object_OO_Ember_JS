@@ -6,13 +6,22 @@
   </p>
 </div>
 
-<div id="new-post-button">
-  {{new-post save2="save3"}}
+<br>
+
+<div id="posts-header">
+  <h3>View Posts:</h3>
 </div>
 
-<br>
 <ul>
-  {{#each model as |post|}}
+  {{#each model.posts as |post|}}
     {{post-tile post=post update="update" destroyPost="destroyPost"}}
   {{/each}}
 </ul>
+
+
+<br>
+<br>
+
+<div id="new-post-button">
+  {{new-post save2="save3"}}
+</div>
