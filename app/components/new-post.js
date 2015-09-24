@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   addNewBlogPost: false,
   actions: {
     blogFormShow() {
-      this.set('addNewPost', true)
+      this.set('addNewPost', true);
     },
 
     save1() {
@@ -14,7 +14,7 @@ export default Ember.Component.extend({
         author: this.get('author'),
         body: this.get('body')
       };
-      this.set('addNewPost', false),
+      this.set('addNewPost', false);
       this.sendAction('save2', params);
     }
   }
